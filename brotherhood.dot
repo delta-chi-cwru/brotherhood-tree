@@ -1,0 +1,116 @@
+/******************************************
+ * Deta Chi of CWRU Brotherhood tree.     *
+ *                                        *
+ * Based on the work of the               *
+ * Beta Nu of Theta Chi Brotherhood tree. *
+ *                                        *
+ * This language has a C-like grammar and *
+ * commenting system.			  *
+ *****************************************/
+digraph brotherhood {
+	ranksep=0; // minimum separation between ranks
+	concentrate=true; // gives a more flowing edge pattern
+	ratio=compress; // optimizes for horizontal space
+	size="50,50"; // gives it a square shape
+	/* This first block represents a timeline on the left side. */
+	{
+		// Change font to something appropriate for your system
+		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
+		edge [style=invis];
+                "" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013";
+	}
+	/* This lists who was in which pledge class so that everyone from each pledge class is in the same rank. */
+	node [color=black, shape=ellipse, fontname="Nimbus Sans 1", fontsize=12];
+	edge [arrowhead=none, arrowtail=none];
+
+    { rank = same; "Fall 2010"; "Ritchie Phan"; "Stephen Redford"; "Zachary Galliger"; "Brad Aronson"; "Christian Wargo"; "Sean Sukys"; "Steven Kellogg"; "Kevin Brayer"; "Sidi Huang"; "Jerry Kappil"; "Nicholas Swingle"; "Jonathan Shorter"; "Anthony Radencic"; "John Avellano"; "Andrew Oriani"; "John Gunderman"; "Beau Reddington"; "Dan Lalich"; "Evan Malone"; "Ben Abbot"; "Drew Borland"; "Marcin Citak"; "Joseph Fogarty"; "Emmanuel Tavares"; "Rumen Hutchinson"}
+    { rank = same; "Spring 2011"; "John Horan"; "Jonathan Onorato"; "Calvin Gao";}
+	{ rank = same; "Fall 2011"; "Joey Olewinski"; "Ryan Ung"; "Eddie Chavez"; "Ting-Chao Su"; "Tristan Weber"; "Erik Larsen"; "Brendan Higgins"; "Patrick Chirdon"; "Arley Rodriguez"; "Sergiy Turchyn"; "John Phillips"; "Kenny Watka"; "Ryan Gongloff"}
+	{ rank = same; "Spring 2012"; "Matthew Canestrano"; "Andrew Ritosa"; "Connor Toomey"; "Jevon Montague"; "Ali Azeem"; "Peter Chen"; "Josh Musser"; "James Lake"; "Hyung Chul Kim"; "Nate Brucker"; "Aaditya Vishwanath"}
+    { rank = same; "Fall 2012"; "Jake Schwartz"; "Joe Szabo"; "Kevin Thompson"; "Darrell George"; "Aaron Neyer"; "Josh Osborne"; "Chauncey Costello"; "David Blankfield";}
+    { rank = same; "Spring 2013"; "Danny Smith"; "Manoj Ranganathan";  "Neal Driscoll"; "Jay Patel"; "Diego Waxemburg"; "Adam Gleichsner"; "Justin Tang"; "Kevin Smith"; }
+    { rank = same; "Fall 2013"; "William Breckwoldt"; "Nikhil Mysore"; "Austin Kilpatrick"; "Tim Watkins"; "Amith Rao"; "Peter Thompson"; }
+
+
+
+	/* Big brother -> Little brother */
+        /* Co-bros have connections in both directions */
+        "Ritchie Phan" -> "Kevin Brayer";
+        "Stephen Redford" -> "Zachary Galliger";
+        "Zachary Galliger" -> "Stephen Redford";
+        "Brad Aronson" -> "Jonathan Shorter";
+        "Christian Wargo" -> "Beau Reddington";
+        "Sean Sukys" -> "Evan Malone";
+        "Evan Malone" -> "Sean Sukys";
+        "Steven Kellogg" -> "John Gunderman";
+        "Jonathan Shorter" -> "Joey Olewinski";
+        "Ritchie Phan" -> "Ryan Ung";
+        "Ben Abbot" -> "John Horan";
+        "John Horan" -> "Eddie Chavez";
+        "Kevin Brayer" -> "Ritchie Phan";
+        "Drew Borland" ->"Jonathan Onorato";
+        "Marcin Citak" -> "Sidi Huang";
+        "Sidi Huang" -> "Marcin Citak";
+        "Marcin Citak" -> "Calvin Gao";
+        "Jerry Kappil" -> "Joseph Fogarty";
+        "Joseph Fogarty" -> "Jerry Kappil";
+        "Steven Kellogg" -> "Ting-Chao Su";
+        "Nicholas Swingle" -> "Anthony Radencic";
+        "Anthony Radencic"-> "Tristan Weber";
+        "Jonathan Shorter" -> "Brad Aronson";
+        "Anthony Radencic" -> "Nicholas Swingle";
+        "John Avellano" -> "Emmanuel Tavares";
+        "Emmanuel Tavares" -> "John Avellano";
+        "Andrew Oriani" -> "Ben Abbot";
+        "Ben Abbot" -> "Andrew Oriani";
+        "John Gunderman" -> "Steven Kellogg";
+        "Beau Reddington" -> "Christian Wargo";
+        "Dan Lalich" -> "Drew Borland";
+        "Drew Borland" -> "Dan Lalich";
+        "Stephen Redford" -> "Erik Larsen";
+        "John Gunderman" -> "Brendan Higgins";
+        "Emmanuel Tavares" -> "Patrick Chirdon";
+        "Christian Wargo" -> "Arley Rodriguez";
+        "Nicholas Swingle" -> "Sergiy Turchyn";
+        "Kevin Brayer" -> "John Phillips";
+        "John Gunderman" -> "Matthew Canestrano";
+        "Stephen Redford" -> "Andrew Ritosa";
+        "John Avellano" -> "Connor Toomey";
+        "Jerry Kappil" -> "Jevon Montague";
+        "Eddie Chavez" -> "Ali Azeem";
+        "Sidi Huang" -> "Peter Chen";
+        "Jonathan Onorato" -> "Josh Musser";
+        "Brad Aronson" -> "James Lake";
+        "Sean Sukys" -> "Hyung Chul Kim";
+        "Beau Reddington" -> "Nate Brucker";
+        "Ritchie Phan" -> "Aaditya Vishwanath";
+        "Rumen Hutchinson" -> "Ben Abbot";
+        "Ben Abbot" -> "Rumen Hutchinson";
+        "Rumen Hutchinson" -> "Andrew Oriani";
+        "Andrew Oriani" -> "Rumen Hutchinson";
+        "Calvin Gao" -> "Kenny Watka";
+        "Brad Aronson" -> "Ryan Gongloff";
+        "John Gunderman" -> "Jake Schwartz";
+        "Anthony Radencic"
+        "Hyung Chul Kim" -> "Joe Szabo";
+        "Christian Wargo" -> "Kevin Thompson";
+        "Nate Brucker" -> "Aaron Neyer";
+        "Zachary Galliger" -> "Josh Osborne";
+        "Tristan Weber" -> "Chauncey Costello";
+        "Andrew Ritosa" -> "David Blankfield";
+        "Calvin Gao" -> "Darrell George";
+        "Ali Azeem" -> "Danny Smith";
+        "Tristan Weber" -> "Manoj Ranganathan";
+        "Zachary Galliger" -> "Neal Driscoll";
+        "Stephen Redford" -> "Jay Patel";
+        "Jake Schwartz" -> "Diego Waxemburg";
+        "Jonathan Onorato" -> "Adam Gleichsner";
+        "Jevon Montague" -> "Justin Tang";
+        "Connor Toomey" -> "Kevin Smith";
+        "Jake Schwartz" -> "William Breckwoldt";
+        "Peter Chen" -> "Nikhil Mysore";
+        "Kevin Smith" -> "Peter Thompson";
+        "Andrew Ritosa" -> "Austin Kilpatrick";
+        "David Blankfield" -> "Tim Watkins";
+        "Danny Smith" -> "Amith Rao";
+}
