@@ -17,7 +17,7 @@ digraph brotherhood {
 		// Change font to something appropriate for your system
 		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
 		edge [style=invis];
-                "" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013";
+                "" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014";
 	}
 	/* This lists who was in which pledge class so that everyone from each pledge class is in the same rank. */
 	node [color=black, shape=ellipse, fontname="Nimbus Sans 1", fontsize=12];
@@ -28,9 +28,9 @@ digraph brotherhood {
 	{ rank = same; "Fall 2011"; "Joey Olewinski"; "Ryan Ung"; "Eddie Chavez"; "Ting-Chao Su"; "Tristan Weber"; "Erik Larsen"; "Brendan Higgins"; "Patrick Chirdon"; "Arley Rodriguez"; "Sergiy Turchyn"; "John Phillips"; "Kenny Watka"; "Ryan Gongloff"}
 	{ rank = same; "Spring 2012"; "Matthew Canestrano"; "Andrew Ritosa"; "Connor Toomey"; "Jevon Montague"; "Ali Azeem"; "Peter Chen"; "Josh Musser"; "James Lake"; "Hyung Chul Kim"; "Nate Brucker"; "Aaditya Vishwanath"}
     { rank = same; "Fall 2012"; "Jake Schwartz"; "Joe Szabo"; "Kevin Thompson"; "Darrell George"; "Aaron Neyer"; "Josh Osborne"; "Chauncey Costello"; "David Blankfield";}
-    { rank = same; "Spring 2013"; "Danny Smith"; "Manoj Ranganathan";  "Neal Driscoll"; "Jay Patel"; "Diego Waxemburg"; "Adam Gleichsner"; "Justin Tang"; "Kevin Smith"; }
+    { rank = same; "Spring 2013"; "Danny Smith"; "Manoj Ranganathan";  "Neal Driscoll"; "Jay Patel"; "Diego Waxemberg"; "Adam Gleichsner"; "Justin Tang"; "Kevin Smith"; }
     { rank = same; "Fall 2013"; "William Breckwoldt"; "Nikhil Mysore"; "Austin Kilpatrick"; "Tim Watkins"; "Amith Rao"; "Peter Thompson"; }
-
+    { rank = same; "Spring 2014"; "Jase Broderick"; "Spencer Burton"; "Justin Ferri"; "Blake Gibson"; "Jordan Gibson"; "Arjun Gopinath"; "Zach Hudson"; "Joel Kalos"; "Sam Tate"; "Kevin Wang"; }
 
 
 	/* Big brother -> Little brother */
@@ -103,7 +103,7 @@ digraph brotherhood {
         "Tristan Weber" -> "Manoj Ranganathan";
         "Zachary Galliger" -> "Neal Driscoll";
         "Stephen Redford" -> "Jay Patel";
-        "Jake Schwartz" -> "Diego Waxemburg";
+        "Jake Schwartz" -> "Diego Waxemberg";
         "Jonathan Onorato" -> "Adam Gleichsner";
         "Jevon Montague" -> "Justin Tang";
         "Connor Toomey" -> "Kevin Smith";
@@ -113,4 +113,14 @@ digraph brotherhood {
         "Andrew Ritosa" -> "Austin Kilpatrick";
         "David Blankfield" -> "Tim Watkins";
         "Danny Smith" -> "Amith Rao";
+        "Joe Szabo" -> "Jase Broderick";
+        "Arley Rodriguez" -> "Spencer Burton";
+        "Brendan Higgins" -> "Justin Ferri";
+        "Austin Kilpatrick" -> "Blake Gibson";
+        "Amith Rao" -> "Jordan Gibson";
+        "Joey Olewinski" -> "Arjun Gopinath";
+        "Diego Waxemberg" -> "Zach Hudson";
+        "Connor Toomey" -> "Joel Kalos";
+        "Jevon Montague" -> "Sam Tate";
+        "Ryan Ung" -> "Kevin Wang";
 }
