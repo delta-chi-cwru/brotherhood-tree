@@ -17,7 +17,7 @@ digraph brotherhood {
 		// Change font to something appropriate for your system
 		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
 		edge [style=invis];
-                "" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014";
+                "" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014" -> "Fall 2014";
 	}
 	/* This lists who was in which pledge class so that everyone from each pledge class is in the same rank. */
 	node [color=black, shape=ellipse, fontname="Nimbus Sans 1", fontsize=12];
@@ -30,8 +30,8 @@ digraph brotherhood {
     { rank = same; "Fall 2012"; "Jake Schwartz"; "Joe Szabo"; "Kevin Thompson"; "Darrell George"; "Aaron Neyer"; "Josh Osborne"; "Chauncey Costello"; "David Blankfield";}
     { rank = same; "Spring 2013"; "Danny Smith"; "Manoj Ranganathan";  "Neal Driscoll"; "Jay Patel"; "Diego Waxemberg"; "Adam Gleichsner"; "Justin Tang"; "Kevin Smith"; }
     { rank = same; "Fall 2013"; "William Breckwoldt"; "Nikhil Mysore"; "Austin Kilpatrick"; "Tim Watkins"; "Amith Rao"; "Peter Thompson"; }
-    { rank = same; "Spring 2014"; "Jase Broderick"; "Spencer Burton"; "Justin Ferri"; "Blake Gibson"; "Jordan Gibson"; "Arjun Gopinath"; "Zach Hudson"; "Joel Kalos"; "Sam Tate"; "Kevin Wang"; }
-
+    { rank = same; "Spring 2014"; "Jase Broderick"; "Spencer Burton"; "Justin Ferri"; "Blake Gibson"; "Jordan Gibson"; "Arjun Gopinath"; "Zach Hudson"; "Joel Kalos"; "Sam Tate"; "Kevin Wang"; "Hyun Lee"; "Zach Janice"; }
+    { rank = same; "Fall 2014"; "Jeff Wang"; "Jonah Larson"; "Alex Tamazik"; "Xavier Hernandez"; "Matthew Tavares"; "Jacob Antunes"; "Kenneth Connover"; "Alex DeChant"; }
 
 	/* Big brother -> Little brother */
         /* Co-bros have connections in both directions */
@@ -123,4 +123,16 @@ digraph brotherhood {
         "Connor Toomey" -> "Joel Kalos";
         "Jevon Montague" -> "Sam Tate";
         "Ryan Ung" -> "Kevin Wang";
+        "Neal Driscoll" -> "Hyun Lee";
+        "Aaron Neyer" -> "Zach Janice";
+        "Jay Patel" -> "Jeff Wang";
+        "James Lake" -> "Jonah Larson";
+        "Arjun Gopinath" -> "Tony Zhang";
+        "Hyung Chul Kim" -> "Alex Tamazik";
+        "William Breckwoldt" -> "Xavier Hernandez";
+        "Darrell George" -> "Matthew Tavares";
+        "Sergiy Turchyn" -> "Jacob Antunes";
+        "Joel Kalos" -> "Kenneth Connover";
+        "Adam Gleichsner" -> "Alex DeChant";
+
 }
