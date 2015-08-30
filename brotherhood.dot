@@ -31,7 +31,8 @@ digraph brotherhood {
     { rank = same; "Spring 2013"; "Danny Smith"; "Manoj Ranganathan";  "Neal Driscoll"; "Jay Patel"; "Diego Waxemberg"; "Adam Gleichsner"; "Justin Tang"; "Kevin Smith"; }
     { rank = same; "Fall 2013"; "William Breckwoldt"; "Nikhil Mysore"; "Austin Kilpatrick"; "Tim Watkins"; "Amith Rao"; "Peter Thompson"; }
     { rank = same; "Spring 2014"; "Jase Broderick"; "Spencer Burton"; "Justin Ferri"; "Blake Gibson"; "Jordan Gibson"; "Arjun Gopinath"; "Zach Hudson"; "Joel Kalos"; "Sam Tate"; "Kevin Wang"; "Hyun Lee"; "Zach Janice"; }
-    { rank = same; "Fall 2014"; "Jeff Wang"; "Jonah Larson"; "Alex Tamazik"; "Xavier Hernandez"; "Matthew Tavares"; "Jacob Antunes"; "Kenneth Connover"; "Alex DeChant"; }
+    { rank = same; "Fall 2014"; "Jeff Wang"; "Jonah Larson"; "Alex Tomazic"; "Xavier Hernandez"; "Matthew Tavares"; "Jacob Antunes"; "Kenneth Connover"; "Alex DeChant"; }
+    { rank = same; "Spring 2015"; "Vineet Erasala"; "Srikarran Sowrirajan"; "Nicholas Barendregt"; "Alex DeFiore";}
 
 	/* Big brother -> Little brother */
         /* Co-bros have connections in both directions */
@@ -128,11 +129,15 @@ digraph brotherhood {
         "Jay Patel" -> "Jeff Wang";
         "James Lake" -> "Jonah Larson";
         "Arjun Gopinath" -> "Tony Zhang";
-        "Hyung Chul Kim" -> "Alex Tamazik";
+        "Hyung Chul Kim" -> "Alex Tomazic";
         "William Breckwoldt" -> "Xavier Hernandez";
         "Darrell George" -> "Matthew Tavares";
         "Sergiy Turchyn" -> "Jacob Antunes";
         "Joel Kalos" -> "Kenneth Connover";
         "Adam Gleichsner" -> "Alex DeChant";
+        "Adam Gleichsner" -> "Alex DeFiore";
+        "Joe Szabo" -> "Nicholas Barendregt";
+        "Nikhil Mysore" -> "Srikarran Sowrirajan";
+        "Zachary Hudson" -> "Vineet Erasala";
 
 }
