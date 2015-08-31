@@ -17,7 +17,7 @@ digraph brotherhood {
 		// Change font to something appropriate for your system
 		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
 		edge [style=invis];
-                "" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014" -> "Fall 2014";
+                "" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014" -> "Fall 2014" -> "Spring 2015";
 	}
 	/* This lists who was in which pledge class so that everyone from each pledge class is in the same rank. */
 	node [color=black, shape=ellipse, fontname="Nimbus Sans 1", fontsize=12];
@@ -30,7 +30,7 @@ digraph brotherhood {
     { rank = same; "Fall 2012"; "Jake Schwartz"; "Joe Szabo"; "Kevin Thompson"; "Darrell George"; "Aaron Neyer"; "Josh Osborne"; "Chauncey Costello"; "David Blankfield";}
     { rank = same; "Spring 2013"; "Danny Smith"; "Manoj Ranganathan";  "Neal Driscoll"; "Jay Patel"; "Diego Waxemberg"; "Adam Gleichsner"; "Justin Tang"; "Kevin Smith"; }
     { rank = same; "Fall 2013"; "William Breckwoldt"; "Nikhil Mysore"; "Austin Kilpatrick"; "Tim Watkins"; "Amith Rao"; "Peter Thompson"; }
-    { rank = same; "Spring 2014"; "Jase Broderick"; "Spencer Burton"; "Justin Ferri"; "Blake Gibson"; "Jordan Gibson"; "Arjun Gopinath"; "Zach Hudson"; "Joel Kalos"; "Sam Tate"; "Kevin Wang"; "Hyun Lee"; "Zach Janice"; }
+    { rank = same; "Spring 2014"; "Jase Broderick"; "Spencer Burton"; "Justin Ferri"; "Blake Gibson"; "Jordan Gibson"; "Arjun Gopinath"; "Zachary Hudson"; "Joel Kalos"; "Sam Tate"; "Kevin Wang"; "Hyun Lee"; "Zach Janice"; }
     { rank = same; "Fall 2014"; "Jeff Wang"; "Jonah Larson"; "Alex Tomazic"; "Xavier Hernandez"; "Matthew Tavares"; "Jacob Antunes"; "Kenneth Connover"; "Alex DeChant"; }
     { rank = same; "Spring 2015"; "Vineet Erasala"; "Srikarran Sowrirajan"; "Nicholas Barendregt"; "Alex DeFiore";}
 
@@ -120,7 +120,7 @@ digraph brotherhood {
         "Austin Kilpatrick" -> "Blake Gibson";
         "Amith Rao" -> "Jordan Gibson";
         "Joey Olewinski" -> "Arjun Gopinath";
-        "Diego Waxemberg" -> "Zach Hudson";
+        "Diego Waxemberg" -> "Zachary Hudson";
         "Connor Toomey" -> "Joel Kalos";
         "Jevon Montague" -> "Sam Tate";
         "Ryan Ung" -> "Kevin Wang";
