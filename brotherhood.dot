@@ -17,7 +17,7 @@ digraph brotherhood {
 		// Change font to something appropriate for your system
 		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
 		edge [style=invis];
-                "" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014" -> "Fall 2014" -> "Spring 2015";
+                "" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014" -> "Fall 2014" -> "Spring 2015" -> "Fall 2015";
 	}
 	/* This lists who was in which pledge class so that everyone from each pledge class is in the same rank. */
 	node [color=black, shape=ellipse, fontname="Nimbus Sans 1", fontsize=12];
@@ -33,6 +33,7 @@ digraph brotherhood {
     { rank = same; "Spring 2014"; "Jase Broderick"; "Spencer Burton"; "Justin Ferri"; "Blake Gibson"; "Jordan Gibson"; "Arjun Gopinath"; "Zachary Hudson"; "Joel Kalos"; "Sam Tate"; "Kevin Wang"; "Hyun Lee"; "Zach Janice"; }
     { rank = same; "Fall 2014"; "Jeff Wang"; "Jonah Larson"; "Alex Tomazic"; "Xavier Hernandez"; "Matthew Tavares"; "Jacob Antunes"; "Kenneth Connover"; "Alex DeChant"; }
     { rank = same; "Spring 2015"; "Vineet Erasala"; "Srikarran Sowrirajan"; "Nicholas Barendregt"; "Alex DeFiore";}
+    { rank = same; "Fall 2015"; "Patrick Bonano"; "Nathan Smith"; "Veijay Raj"; "Bobby Wagner"; "Anno van den Akker"; "Mason Orsagh"; "Sai Somasundaram"; "Nathaniel Johnson"; "Calvin Pozderac"; "Benjamin Pinzone"; "Kevin Yang"; "Morgan McMahon";}
 
 	/* Big brother -> Little brother */
         /* Co-bros have connections in both directions */
@@ -139,5 +140,17 @@ digraph brotherhood {
         "Joe Szabo" -> "Nicholas Barendregt";
         "Nikhil Mysore" -> "Srikarran Sowrirajan";
         "Zachary Hudson" -> "Vineet Erasala";
+        "Peter Thompson" -> "Patrick Bonano";
+        "Vineet Erasala" -> "Nathan Smith";
+        "Matthew Tavares" -> "Veijay Raj";
+        "Kevin Wang" -> "Bobby Wagner";
+        "Zachary Hudson" -> "Anno van den Akker";
+        "Zach Janice" -> "Mason Orsagh";
+        "Amith Rao" -> "Sai Somasundaram";
+        "Arjun Gopinath" -> "Nathaniel Johnson";
+        "Joe Szabo" -> "Calvin Pozderac";
+        "Jonah Larson" -> "Benjamin Pinzone";
+        "Jeff Wang" -> "Kevin Yang";
+        "Tony Zhang" -> "Morgan McMahon";
 
 }
