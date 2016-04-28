@@ -17,7 +17,7 @@ digraph brotherhood {
 		// Change font to something appropriate for your system
 		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
 		edge [style=invis];
-                "" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014" -> "Fall 2014" -> "Spring 2015" -> "Fall 2015";
+                "" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014" -> "Fall 2014" -> "Spring 2015" -> "Fall 2015" -> "Spring 2016";
 	}
 	/* This lists who was in which pledge class so that everyone from each pledge class is in the same rank. */
 	node [color=black, shape=ellipse, fontname="Nimbus Sans 1", fontsize=12];
@@ -34,6 +34,7 @@ digraph brotherhood {
     { rank = same; "Fall 2014"; "Jeff Wang"; "Jonah Larson"; "Alex Tomazic"; "Xavier Hernandez"; "Matthew Tavares"; "Jacob Antunes"; "Kenneth Connover"; "Alex DeChant"; }
     { rank = same; "Spring 2015"; "Vineet Erasala"; "Srikarran Sowrirajan"; "Nicholas Barendregt"; "Alex DeFiore";}
     { rank = same; "Fall 2015"; "Patrick Bonano"; "Nathan Smith"; "Veijay Raj"; "Bobby Wagner"; "Anno van den Akker"; "Mason Orsagh"; "Sai Somasundaram"; "Nathaniel Johnson"; "Calvin Pozderac"; "Benjamin Pinzone"; "Kevin Yang"; "Morgan McMahon";}
+    { rank = same; "Spring 2016"; "Tyler Dill"; "Gabriel Jimenez"; "Naveen Karthik"; "Caleb Main"; "Paul Nettleton"; "Vishal Shah"; "Austin Stroud";}
 
 	/* Big brother -> Little brother */
         /* Co-bros have connections in both directions */
@@ -152,5 +153,12 @@ digraph brotherhood {
         "Jonah Larson" -> "Benjamin Pinzone";
         "Jeff Wang" -> "Kevin Yang";
         "Tony Zhang" -> "Morgan McMahon";
+        "William Breckwoldt" -> "Tyler Dill";
+        "Kenneth Connover" -> "Gabriel Jimenez";
+        "Jeff Wang" -> "Naveen Karthik";
+        "Alex DeFiore" -> "Caleb Main";
+        "Anno van den Akker" -> "Paul Nettleton";
+        "Jonah Larson" -> "Vishal Shah";
+        "Austin Kilpatrick" -> "Austin Stroud";
 
 }
