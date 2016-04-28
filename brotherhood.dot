@@ -9,7 +9,7 @@
  *****************************************/
 digraph brotherhood {
 	ranksep=0; // minimum separation between ranks
-	concentrate=true; // gives a more flowing edge pattern
+//	concentrate=true; // gives a more flowing edge pattern
 	ratio=compress; // optimizes for horizontal space
 	size="50,50"; // gives it a square shape
 	/* This first block represents a timeline on the left side. */
