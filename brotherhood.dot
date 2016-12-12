@@ -35,6 +35,8 @@ digraph brotherhood {
     { rank = same; "Spring 2015"; "Vineet Erasala"; "Srikarran Sowrirajan"; "Nicholas Barendregt"; "Alex DeFiore";}
     { rank = same; "Fall 2015"; "Patrick Bonano"; "Nathan Smith"; "Veijay Raj"; "Bobby Wagner"; "Anno van den Akker"; "Mason Orsagh"; "Sai Somasundaram"; "Nathaniel Johnson"; "Calvin Pozderac"; "Benjamin Pinzone"; "Kevin Yang"; "Morgan McMahon";}
     { rank = same; "Spring 2016"; "Tyler Dill"; "Gabriel Jimenez"; "Naveen Karthik"; "Caleb Main"; "Paul Nettleton"; "Vishal Shah"; "Austin Stroud";}
+    { rank = same; "Fall 2016"; "Shounak Bose"; "Sam Jenkins"; "Madhan Saiprasad"; "Raghav Wadhwa";}
+
 
 	/* Big brother -> Little brother */
         /* Co-bros have connections in both directions */
@@ -160,5 +162,9 @@ digraph brotherhood {
         "Anno van den Akker" -> "Paul Nettleton";
         "Jonah Larson" -> "Vishal Shah";
         "Austin Kilpatrick" -> "Austin Stroud";
+        "Justin Ferri" -> "Shounak Bose";
+        "Alex Tomazic" -> "Sam Jenkins";
+        "Kenneth Conover" -> "Raghav Wadhwa";
+        "Sai Somasundaram" -> "Madhan Saiprasad";
 
 }
