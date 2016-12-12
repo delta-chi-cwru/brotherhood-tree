@@ -17,7 +17,7 @@ digraph brotherhood {
 		// Change font to something appropriate for your system
 		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
 		edge [style=invis];
-                "" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014" -> "Fall 2014" -> "Spring 2015" -> "Fall 2015" -> "Spring 2016";
+                "" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014" -> "Fall 2014" -> "Spring 2015" -> "Fall 2015" -> "Spring 2016" -> "Fall 2016";
 	}
 	/* This lists who was in which pledge class so that everyone from each pledge class is in the same rank. */
 	node [color=black, shape=ellipse, fontname="Nimbus Sans 1", fontsize=12];
