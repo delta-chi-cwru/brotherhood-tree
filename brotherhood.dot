@@ -25,8 +25,8 @@ digraph brotherhood {
 
     { rank = same; "Fall 2010"; "Ritchie Phan"; "Stephen Redford"; "Zachary Galliger"; "Brad Aronson"; "Christian Wargo"; "Sean Sukys"; "Steven Kellogg"; "Kevin Brayer"; "Sidi Huang"; "Jerry Kappil"; "Nicholas Swingle"; "Jonathan Shorter"; "Anthony Radencic"; "John Avellano"; "Andrew Oriani"; "John Gunderman"; "Beau Reddington"; "Dan Lalich"; "Evan Malone"; "Ben Abbot"; "Drew Borland"; "Marcin Citak"; "Joseph Fogarty"; "Emmanuel Tavares"; "Rumen Hutchinson"}
     { rank = same; "Spring 2011"; "John Horan"; "Jonathan Onorato"; "Calvin Gao";}
-	{ rank = same; "Fall 2011"; "Joey Olewinski"; "Ryan Ung"; "Eddie Chavez"; "Ting-Chao Su"; "Tristan Weber"; "Erik Larsen"; "Brendan Higgins"; "Patrick Chirdon"; "Arley Rodriguez"; "Sergiy Turchyn"; "John Phillips"; "Kenny Watka"; "Ryan Gongloff"}
-	{ rank = same; "Spring 2012"; "Matthew Canestrano"; "Andrew Ritosa"; "Connor Toomey"; "Jevon Montague"; "Ali Azeem"; "Peter Chen"; "Josh Musser"; "James Lake"; "Hyung Chul Kim"; "Nate Brucker"; "Aaditya Vishwanath"}
+	  { rank = same; "Fall 2011"; "Joey Olewinski"; "Ryan Ung"; "Eddie Chavez"; "Ting-Chao Su"; "Tristan Weber"; "Erik Larsen"; "Brendan Higgins"; "Patrick Chirdon"; "Arley Rodriguez"; "Sergiy Turchyn"; "John Phillips"; "Kenny Watka"; "Ryan Gongloff"}
+	  { rank = same; "Spring 2012"; "Matthew Canestrano"; "Andrew Ritosa"; "Connor Toomey"; "Jevon Montague"; "Ali Azeem"; "Peter Chen"; "Josh Musser"; "James Lake"; "Hyung Chul Kim"; "Nate Brucker"; "Aaditya Vishwanath"}
     { rank = same; "Fall 2012"; "Jake Schwartz"; "Joe Szabo"; "Kevin Thompson"; "Darrell George"; "Aaron Neyer"; "Josh Osborne"; "Chauncey Costello"; "David Blankfield";}
     { rank = same; "Spring 2013"; "Danny Smith"; "Manoj Ranganathan";  "Neal Driscoll"; "Jay Patel"; "Diego Waxemberg"; "Adam Gleichsner"; "Justin Tang"; "Kevin Smith"; }
     { rank = same; "Fall 2013"; "William Breckwoldt"; "Nikhil Mysore"; "Austin Kilpatrick"; "Tim Watkins"; "Amith Rao"; "Peter Thompson"; }
@@ -164,7 +164,7 @@ digraph brotherhood {
         "Austin Kilpatrick" -> "Austin Stroud";
         "Justin Ferri" -> "Shounak Bose";
         "Alex Tomazic" -> "Sam Jenkins";
-        "Kenneth Conover" -> "Raghav Wadhwa";
+        "Kenneth Connover" -> "Raghav Wadhwa";
         "Sai Somasundaram" -> "Madhan Saiprasad";
 
 }
