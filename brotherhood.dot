@@ -18,7 +18,7 @@ digraph brotherhood {
 		// Change font to something appropriate for your system
 		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
 		edge [style=invis];
-      "" -> "Fall 2010: Founders" -> "Spring 2011: Alpha" -> "Fall 2011: Beta" -> "Spring 2012: Gamma" -> "Fall 2012: Delta" -> "Spring 2013: Epsilon" -> "Fall 2013: Zeta" -> "Spring 2014: Eta" -> "Fall 2014: Theta" -> "Spring 2015: Iota" -> "Fall 2015: Kappa" -> "Spring 2016: Lambda" -> "Fall 2016: Mu" -> "Spring 2017: Nu";
+      "" -> "Fall 2010: Founders" -> "Spring 2011: Alpha" -> "Fall 2011: Beta" -> "Spring 2012: Gamma" -> "Fall 2012: Delta" -> "Spring 2013: Epsilon" -> "Fall 2013: Zeta" -> "Spring 2014: Eta" -> "Fall 2014: Theta" -> "Spring 2015: Kappa" -> "Fall 2015: Lambda" -> "Spring 2016: Mu" -> "Fall 2016: Nu" -> "Spring 2017: Xi" -> "Fall 2017: Omicron";
 	}
 
 	/* This lists who was in which pledge class so that everyone from each pledge class is in the same rank. */
@@ -34,11 +34,12 @@ digraph brotherhood {
     { rank = same; "Fall 2013: Zeta";      "William Breckwoldt"; "Nikhil Mysore"; "Austin Kilpatrick"; "Tim Watkins"; "Amith Rao"; "Peter Thompson"; }
     { rank = same; "Spring 2014: Eta";     "Jase Broderick"; "Spencer Burton"; "Justin Ferri"; "Blake Gibson"; "Jordan Gibson"; "Arjun Gopinath"; "Zachary Hudson"; "Joel Kalos"; "Sam Tate"; "Kevin Wang"; "Hyun Lee"; "Zach Janice"; }
     { rank = same; "Fall 2014: Theta";     "Jeff Wang"; "Jonah Larson"; "Alex Tomazic"; "Xavier Hernandez"; "Matthew Tavares"; "Jacob Antunes"; "Kenneth Connover"; "Alex DeChant"; }
-    { rank = same; "Spring 2015: Iota";    "Vineet Erasala"; "Srikarran Sowrirajan"; "Nicholas Barendregt"; "Alex DeFiore";}
-    { rank = same; "Fall 2015: Kappa";     "Patrick Bonano"; "Nathan Smith"; "Veijay Raj"; "Bobby Wagner"; "Anno van den Akker"; "Mason Orsagh"; "Sai Somasundaram"; "Nathaniel Johnson"; "Calvin Pozderac"; "Benjamin Pinzone"; "Kevin Yang"; "Morgan McMahon";}
-    { rank = same; "Spring 2016: Lambda";  "Tyler Dill"; "Gabriel Jimenez"; "Naveen Karthik"; "Caleb Main"; "Paul Nettleton"; "Vishal Shah"; "Austin Stroud";}
-    { rank = same; "Fall 2016: Mu";        "Shounak Bose"; "Sam Jenkins"; "Madhan Saiprasad"; "Raghav Wadhwa";}
-    { rank = same; "Spring 2017: Nu";      "Lance Zhong"; "Paul Advincula"; "Kyle Smolinski"; "John Perszyk"; "Simon Michel";}
+    { rank = same; "Spring 2015: Kappa";   "Vineet Erasala"; "Srikarran Sowrirajan"; "Nicholas Barendregt"; "Alex DeFiore";}
+    { rank = same; "Fall 2015: Lambda";    "Patrick Bonano"; "Nathan Smith"; "Veijay Raj"; "Bobby Wagner"; "Anno van den Akker"; "Mason Orsagh"; "Sai Somasundaram"; "Nathaniel Johnson"; "Calvin Pozderac"; "Benjamin Pinzone"; "Kevin Yang"; "Morgan McMahon";}
+    { rank = same; "Spring 2016: Mu";      "Tyler Dill"; "Gabriel Jimenez"; "Naveen Karthik"; "Caleb Main"; "Paul Nettleton"; "Vishal Shah"; "Austin Stroud";}
+    { rank = same; "Fall 2016: Nu";        "Shounak Bose"; "Sam Jenkins"; "Madhan Saiprasad"; "Raghav Wadhwa";}
+    { rank = same; "Spring 2017: Xi";      "Lance Zhong"; "Paul Advincula"; "Kyle Smolinski"; "John Perszyk"; "Simon Michel";}
+    { rank = same; "Fall 2017: Omicron";   "Brian Gao"; "Arthur Xin"; "Max Barnett"; "Amrith Channarasappa"; "Brian Kent"; "Nick Punzo";}
 
 
 	/* Big brother -> Little brother */
@@ -158,14 +159,14 @@ digraph brotherhood {
         "Joel Kalos" -> "Kenneth Connover";
         "Jonathan Onorato" -> "Alex DeChant";
 
-        /* Spring 2015: Iota */
+        /* Spring 2015: Kappa */
         "Arjun Gopinath" -> "Tony Zhang";
         "Joe Szabo" -> "Nicholas Barendregt";
         "Zachary Hudson" -> "Vineet Erasala";
         "Nikhil Mysore" -> "Srikarran Sowrirajan";
         "Adam Gleichsner" -> "Alex DeFiore";
 
-        /* Fall 2015: Kappa */
+        /* Fall 2015: Lambda */
         "Kevin Wang" -> "Bobby Wagner";
         "Jeff Wang" -> "Kevin Yang";
         "Jonah Larson" -> "Benjamin Pinzone";
@@ -179,7 +180,7 @@ digraph brotherhood {
         "Peter Thompson" -> "Patrick Bonano";
         "Amith Rao" -> "Sai Somasundaram";
 
-        /* Spring 2016: Lambda */
+        /* Spring 2016: Mu */
         "Austin Kilpatrick" -> "Austin Stroud";
         "Jeff Wang" -> "Naveen Karthik";
         "Jonah Larson" -> "Vishal Shah";
@@ -188,17 +189,24 @@ digraph brotherhood {
         "Kenneth Connover" -> "Gabriel Jimenez";
         "Alex DeFiore" -> "Caleb Main";
 
-        /* Fall 2016: Mu */
+        /* Fall 2016: Nu */
         "Alex Tomazic" -> "Sam Jenkins";
         "Justin Ferri" -> "Shounak Bose";
         "Kenneth Connover" -> "Raghav Wadhwa";
         "Sai Somasundaram" -> "Madhan Saiprasad";
 
-        /* Spring 2017: Nu */
+        /* Spring 2017: Xi */
         "Tyler Dill" -> "Lance Zhong";
         "Alex Tomazic" -> "Paul Advincula";
         "Xavier Hernandez" -> "Kyle Smolinski";
         "Anno van den Akker" -> "John Perszyk";
         "Tim Watkins" -> "Simon Michel";
 
+        /* Fall 2017: Omicron */
+        "Anno van den Akker" -> "Brian Gao";
+        "Paul Advincula" -> "Arthur Xin";
+        "Bobby Wagner" -> "Max Barnett";
+        "Nathan Smith" -> "Amrith Channarasappa";
+        "Patrick Bonano" -> "Brian Kent";
+        "Austin Stroud" -> "Nick Punzo";
 }
