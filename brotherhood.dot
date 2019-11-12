@@ -18,7 +18,7 @@ digraph brotherhood {
 		// Change font to something appropriate for your system
 		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
 		edge [style=invis];
-      "" -> "Fall 2010: Founders" -> "Spring 2011: Alpha" -> "Fall 2011: Beta" -> "Spring 2012: Gamma" -> "Fall 2012: Delta" -> "Spring 2013: Epsilon" -> "Fall 2013: Zeta" -> "Spring 2014: Eta" -> "Fall 2014: Theta" -> "Spring 2015: Kappa" -> "Fall 2015: Lambda" -> "Spring 2016: Mu" -> "Fall 2016: Nu" -> "Spring 2017: Xi" -> "Fall 2017: Omicron";
+      "" -> "Fall 2010: Founders" -> "Spring 2011: Alpha" -> "Fall 2011: Beta" -> "Spring 2012: Gamma" -> "Fall 2012: Delta" -> "Spring 2013: Epsilon" -> "Fall 2013: Zeta" -> "Spring 2014: Eta" -> "Fall 2014: Theta" -> "Spring 2015: Kappa" -> "Fall 2015: Lambda" -> "Spring 2016: Mu" -> "Fall 2016: Nu" -> "Spring 2017: Xi" -> "Fall 2017: Omicron" -> "Spring 2018: Pi" -> "Fall 2018: Rho" -> "Spring 2019: Sigma" -> "Fall 2019: Tau";
 	}
 
 	/* This lists who was in which pledge class so that everyone from each pledge class is in the same rank. */
@@ -27,8 +27,8 @@ digraph brotherhood {
 
     { rank = same; "Fall 2010: Founders";  "Ritchie Phan"; "Stephen Redford"; "Zachary Galliger"; "Brad Aronson"; "Christian Wargo"; "Sean Sukys"; "Steven Kellogg"; "Kevin Brayer"; "Sidi Huang"; "Jerry Kappil"; "Nicholas Swingle"; "Jonathan Shorter"; "Anthony Radencic"; "John Avellano"; "Andrew Oriani"; "John Gunderman"; "Beau Reddington"; "Dan Lalich"; "Evan Malone"; "Ben Abbot"; "Drew Borland"; "Marcin Citak"; "Joseph Fogarty"; "Emmanuel Tavares"; "Rumen Hutchinson"}
     { rank = same; "Spring 2011: Alpha";   "John Horan"; "Jonathan Onorato"; "Calvin Gao";}
-	  { rank = same; "Fall 2011: Beta";      "Joey Olewinski"; "Ryan Ung"; "Eddie Chavez"; "Ting-Chao Su"; "Tristan Weber"; "Erik Larsen"; "Brendan Higgins"; "Patrick Chirdon"; "Arley Rodriguez"; "Sergiy Turchyn"; "John Phillips"; "Kenny Watka"; "Ryan Gongloff"}
-	  { rank = same; "Spring 2012: Gamma";   "Matthew Canestrano"; "Andrew Ritosa"; "Connor Toomey"; "Jevon Montague"; "Ali Azeem"; "Peter Chen"; "Josh Musser"; "James Lake"; "Hyung Chul Kim"; "Nate Brucker"; "Aaditya Vishwanath"}
+	{ rank = same; "Fall 2011: Beta";      "Joey Olewinski"; "Ryan Ung"; "Eddie Chavez"; "Ting-Chao Su"; "Tristan Weber"; "Erik Larsen"; "Brendan Higgins"; "Patrick Chirdon"; "Arley Rodriguez"; "Sergiy Turchyn"; "John Phillips"; "Kenny Watka"; "Ryan Gongloff"}
+	{ rank = same; "Spring 2012: Gamma";   "Matthew Canestrano"; "Andrew Ritosa"; "Connor Toomey"; "Jevon Montague"; "Ali Azeem"; "Peter Chen"; "Josh Musser"; "James Lake"; "Hyung Chul Kim"; "Nate Brucker"; "Aaditya Vishwanath"}
     { rank = same; "Fall 2012: Delta";     "Jake Schwartz"; "Joe Szabo"; "Kevin Thompson"; "Darrell George"; "Aaron Neyer"; "Josh Osborne"; "Chauncey Costello"; "David Blankfield";}
     { rank = same; "Spring 2013: Epsilon"; "Danny Smith"; "Manoj Ranganathan";  "Neal Driscoll"; "Jay Patel"; "Diego Waxemberg"; "Adam Gleichsner"; "Justin Tang"; "Kevin Smith"; }
     { rank = same; "Fall 2013: Zeta";      "William Breckwoldt"; "Nikhil Mysore"; "Austin Kilpatrick"; "Tim Watkins"; "Amith Rao"; "Peter Thompson"; }
@@ -40,8 +40,10 @@ digraph brotherhood {
     { rank = same; "Fall 2016: Nu";        "Shounak Bose"; "Sam Jenkins"; "Madhan Saiprasad"; "Raghav Wadhwa";}
     { rank = same; "Spring 2017: Xi";      "Lance Zhong"; "Paul Advincula"; "Kyle Smolinski"; "John Perszyk"; "Simon Michel";}
     { rank = same; "Fall 2017: Omicron";   "Brian Gao"; "Arthur Xin"; "Max Barnett"; "Amrith Channarasappa"; "Brian Kent"; "Nick Punzo";}
-
-
+    { rank = same; "Spring 2018: Pi";	   "Shaan Patel"; "Naveen Viswanath";}
+    { rank = same; "Fall 2018: Rho";       "Langdon Caldwell"; "Varun Dutta"; "Ethan Glickstein"; "Brian Hinkle"; "Gabe Perez"; "Jonathan Reisman";}
+    { rank = same; "Spring 2019: Sigma";   "Aritra Chakraborty"; "Lexington Germosen"; "Jonathan Qiu"; "Jensen Turner";}
+    { rank = same; "Fall 2019: Tau";       "Joshua Ackerman";}
 	/* Big brother -> Little brother */
         /* Co-bros have connections in both directions */
         /* Fall 2010: Founders */
@@ -209,4 +211,25 @@ digraph brotherhood {
         "Nathan Smith" -> "Amrith Channarasappa";
         "Patrick Bonano" -> "Brian Kent";
         "Austin Stroud" -> "Nick Punzo";
+
+        /* Spring 2018: Phi */
+        "Vishal Shah" -> "Shaan Patel";
+        "Shounak Bose" -> "Naveen Viswanath";
+
+        /* Fall 2019: Rho */
+        "Amrith Channarasappa" -> "Gabe Perez";
+        "Shaan Patel" -> "Varun Dutta";
+        "Sam Jenkins" -> "Jonathan Reisman";
+        "Patrick Bonano" -> "Brian Hinkle";
+        "Austin Stroud" -> "Langdon Caldwell";
+        "Madhan Saiprasad" -> "Ethan Glickstein";
+
+        /* Spring 2019: Sigma */
+        "Amrith Channarasappa" -> "Jonathan Qiu";
+        "Shaan Patel" -> "Aritra Chakraborty";
+        "Simon Michel" -> "Lexington Germosen";
+        "Max Barnett" -> "Jensen Turner";
+
+        /* Fall 2019: Tau */
+        "Varun Dutta" -> "Joshua Ackerman";
 }
