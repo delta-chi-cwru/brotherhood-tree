@@ -242,7 +242,9 @@ digraph brotherhood {
 	"Varun Dutta" -> "Joshua Ackerman";
 	
 	/* Spring 2020: Upsilon */
-	/* Nathan Lesch"; "William Kaon"; "Drew Buckles" */
+	"Lexington Germosen" -> Nathan Lesch";
+	"Langdon Caldwell" -> "William Kaon";
+	"Jonathan Qiu" -> "Drew Buckles";
 	
 	/* Fall 2020: Phi */
 	"Varun Dutta" -> "Viraj Gorthi";
