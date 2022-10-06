@@ -242,7 +242,7 @@ digraph brotherhood {
 	"Varun Dutta" -> "Joshua Ackerman";
 	
 	/* Spring 2020: Upsilon */
-	"Lexington Germosen" -> Nathan Lesch";
+	"Lexington Germosen" -> "Nathan Lesch";
 	"Langdon Caldwell" -> "William Kaon";
 	"Jonathan Qiu" -> "Drew Buckles";
 	
