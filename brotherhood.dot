@@ -1,215 +1,216 @@
 /******************************************
- * Deta Chi of CWRU Brotherhood tree.     *
+ * Deta Chi at CWRU Brotherhood tree.     *
  *                                        *
  * Based on the work of the               *
  * Beta Nu of Theta Chi Brotherhood tree. *
  *                                        *
  * This language has a C-like grammar and *
- * commenting system.			                *
+ * commenting system.                     *
  ******************************************/
 
 digraph brotherhood {
-	ranksep=0; // minimum separation between ranks
-//	concentrate=true; // gives a more flowing edge pattern
-	ratio=compress; // optimizes for horizontal space
-	size="50,50"; // gives it a square shape
+	ranksep=0;		// minimum separation between ranks
+	//concentrate=true;	// gives a more flowing edge pattern
+	ratio=compress;		// optimizes for horizontal space
+	size="50,50";		// gives it a square shape
+	
 	/* This first block represents a timeline on the left side. */
 	{
 		// Change font to something appropriate for your system
 		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
 		edge [style=invis];
-      "" -> "Fall 2010: Founders" -> "Spring 2011: Alpha" -> "Fall 2011: Beta" -> "Spring 2012: Gamma" -> "Fall 2012: Delta" -> "Spring 2013: Epsilon" -> "Fall 2013: Zeta" -> "Spring 2014: Eta" -> "Fall 2014: Theta" -> "Spring 2015: Kappa" -> "Fall 2015: Lambda" -> "Spring 2016: Mu" -> "Fall 2016: Nu" -> "Spring 2017: Xi" -> "Fall 2017: Omicron" -> "Spring 2018: Pi" -> "Fall 2018: Rho" -> "Spring 2019: Sigma" -> "Fall 2019: Tau";
+		"" -> "Fall 2010: Founders" -> "Spring 2011: Alpha" -> "Fall 2011: Beta" -> "Spring 2012: Gamma" -> "Fall 2012: Delta" -> "Spring 2013: Epsilon" -> "Fall 2013: Zeta" -> "Spring 2014: Eta" -> "Fall 2014: Theta" -> "Spring 2015: Kappa" -> "Fall 2015: Lambda" -> "Spring 2016: Mu" -> "Fall 2016: Nu" -> "Spring 2017: Xi" -> "Fall 2017: Omicron" -> "Spring 2018: Pi" -> "Fall 2018: Rho" -> "Spring 2019: Sigma" -> "Fall 2019: Tau" -> "Spring 2020: Upsilon" -> "Fall 2020: Phi" -> "Spring 2021: Chi" -> "Fall 2021: Psi" -> "Spring 2022: Omega" -> "Fall 2022: Alpha Alpha";
 	}
 
-	/* This lists who was in which pledge class so that everyone from each pledge class is in the same rank. */
+	/* This lists who was in which Associate Member class so that everyone from each class is in the same rank. */
 	node [color=black, shape=ellipse, fontname="Nimbus Sans 1", fontsize=12];
 	edge [arrowhead=none, arrowtail=none];
 
-    { rank = same; "Fall 2010: Founders";	"Ritchie Phan"; "Stephen Redford"; "Zachary Galliger"; "Brad Aronson"; "Christian Wargo"; "Sean Sukys"; "Steven Kellogg"; "Kevin Brayer"; "Sidi Huang"; "Jerry Kappil"; "Nicholas Swingle"; "Jonathan Shorter"; "Anthony Radencic"; "John Avellano"; "Andrew Oriani"; "John Gunderman"; "Beau Reddington"; "Dan Lalich"; "Evan Malone"; "Ben Abbot"; "Drew Borland"; "Marcin Citak"; "Joseph Fogarty"; "Emmanuel Tavares"; "Rumen Hutchinson"}
-    { rank = same; "Spring 2011: Alpha";	"John Horan"; "Jonathan Onorato"; "Calvin Gao";}
-    { rank = same; "Fall 2011: Beta";		"Joey Olewinski"; "Ryan Ung"; "Eddie Chavez"; "Ting-Chao Su"; "Tristan Weber"; "Erik Larsen"; "Brendan Higgins"; "Patrick Chirdon"; "Arley Rodriguez"; "Sergiy Turchyn"; "John Phillips"; "Kenny Watka"; "Ryan Gongloff"}
-    { rank = same; "Spring 2012: Gamma";	"Matthew Canestrano"; "Andrew Ritosa"; "Connor Toomey"; "Jevon Montague"; "Ali Azeem"; "Peter Chen"; "Josh Musser"; "James Lake"; "Hyung Chul Kim"; "Nate Brucker"; "Aaditya Vishwanath"}
-    { rank = same; "Fall 2012: Delta";		"Jake Schwartz"; "Joe Szabo"; "Kevin Thompson"; "Darrell George"; "Aaron Neyer"; "Josh Osborne"; "Chauncey Costello"; "David Blankfield";}
-    { rank = same; "Spring 2013: Epsilon";	"Danny Smith"; "Manoj Ranganathan";  "Neal Driscoll"; "Jay Patel"; "Diego Waxemberg"; "Adam Gleichsner"; "Justin Tang"; "Kevin Smith"; }
-    { rank = same; "Fall 2013: Zeta";		"William Breckwoldt"; "Nikhil Mysore"; "Austin Kilpatrick"; "Tim Watkins"; "Amith Rao"; "Peter Thompson"; }
-    { rank = same; "Spring 2014: Eta";		"Jase Broderick"; "Spencer Burton"; "Justin Ferri"; "Blake Gibson"; "Jordan Gibson"; "Arjun Gopinath"; "Zachary Hudson"; "Joel Kalos"; "Sam Tate"; "Kevin Wang"; "Hyun Lee"; "Zach Janice"; }
-    { rank = same; "Fall 2014: Theta";		"Jeff Wang"; "Jonah Larson"; "Alex Tomazic"; "Xavier Hernandez"; "Matthew Tavares"; "Jacob Antunes"; "Kenneth Connover"; "Alex DeChant"; }
-    { rank = same; "Spring 2015: Kappa";	"Vineet Erasala"; "Srikarran Sowrirajan"; "Nicholas Barendregt"; "Alex DeFiore";}
-    { rank = same; "Fall 2015: Lambda";		"Patrick Bonano"; "Nathan Smith"; "Veijay Raj"; "Bobby Wagner"; "Anno van den Akker"; "Mason Orsagh"; "Sai Somasundaram"; "Nathaniel Johnson"; "Calvin Pozderac"; "Benjamin Pinzone"; "Kevin Yang"; "Morgan McMahon";}
-    { rank = same; "Spring 2016: Mu";		"Tyler Dill"; "Gabriel Jimenez"; "Naveen Karthik"; "Caleb Main"; "Paul Nettleton"; "Vishal Shah"; "Austin Stroud";}
-    { rank = same; "Fall 2016: Nu";		"Shounak Bose"; "Sam Jenkins"; "Madhan Saiprasad"; "Raghav Wadhwa";}
-    { rank = same; "Spring 2017: Xi";		"Lance Zhong"; "Paul Advincula"; "Kyle Smolinski"; "John Perszyk"; "Simon Michel";}
-    { rank = same; "Fall 2017: Omicron";	"Brian Gao"; "Arthur Xin"; "Max Barnett"; "Amrith Channarasappa"; "Brian Kent"; "Nick Punzo";}
-    { rank = same; "Spring 2018: Pi";		"Shaan Patel"; "Naveen Viswanath";}
-    { rank = same; "Fall 2018: Rho";		"Langdon Caldwell"; "Varun Dutta"; "Ethan Glickstein"; "Brian Hinkle"; "Gabe Perez"; "Jonathan Reisman";}
-    { rank = same; "Spring 2019: Sigma";	"Aritra Chakraborty"; "Lexington Germosen"; "Jonathan Qiu"; "Jensen Turner";}
-    { rank = same; "Fall 2019: Tau";		"Joshua Ackerman";}
-    { rank = same; "Fall 2019: Upsilon";	"Nathan Lesch"; "William Kaon"; "Drew Buckles";}
-    { rank = same; "Fall 2020: Phi";       	"Viraj Gorthi"; "Alok Bose"; "James Redding"; "Jared Heller"; "Antonio Torres"; "Nathan Labrie";}
-    { rank = same; "Spring 2021: Chi";       	"Matthew Moon";}
-    { rank = same; "Fall 2021: Psi";		"Kyler VanWey"; "Joey Hunker"; "Ben Sash";}
-    { rank = same; "Spring 2022: Omega";	"Jacob Hasbani";}
-    { rank = same; "Fall 2022: Alpha Alpha";	"Junsun Yoo"; "Charlie Cimperman"; "Lear Wang"; "Rohan Berridge"; "Mason Kung"; "Kevin Arndt";}
+	{ rank = same; "Fall 2010: Founders";		"Ritchie Phan"; "Stephen Redford"; "Zachary Galliger"; "Brad Aronson"; "Christian Wargo"; "Sean Sukys"; "Steven Kellogg"; "Kevin Brayer"; "Sidi Huang"; "Jerry Kappil"; "Nicholas Swingle"; "Jonathan Shorter"; "Anthony Radencic"; "John Avellano"; "Andrew Oriani"; "John Gunderman"; "Beau Reddington"; "Dan Lalich"; "Evan Malone"; "Ben Abbot"; "Drew Borland"; "Marcin Citak"; "Joseph Fogarty"; "Emmanuel Tavares"; "Rumen Hutchinson"}
+	{ rank = same; "Spring 2011: Alpha";		"John Horan"; "Jonathan Onorato"; "Calvin Gao";}
+	{ rank = same; "Fall 2011: Beta";		"Joey Olewinski"; "Ryan Ung"; "Eddie Chavez"; "Ting-Chao Su"; "Tristan Weber"; "Erik Larsen"; "Brendan Higgins"; "Patrick Chirdon"; "Arley Rodriguez"; "Sergiy Turchyn"; "John Phillips"; "Kenny Watka"; "Ryan Gongloff"}
+	{ rank = same; "Spring 2012: Gamma";		"Matthew Canestrano"; "Andrew Ritosa"; "Connor Toomey"; "Jevon Montague"; "Ali Azeem"; "Peter Chen"; "Josh Musser"; "James Lake"; "Hyung Chul Kim"; "Nate Brucker"; "Aaditya Vishwanath"}
+	{ rank = same; "Fall 2012: Delta";		"Jake Schwartz"; "Joe Szabo"; "Kevin Thompson"; "Darrell George"; "Aaron Neyer"; "Josh Osborne"; "Chauncey Costello"; "David Blankfield";}
+	{ rank = same; "Spring 2013: Epsilon";		"Danny Smith"; "Manoj Ranganathan";  "Neal Driscoll"; "Jay Patel"; "Diego Waxemberg"; "Adam Gleichsner"; "Justin Tang"; "Kevin Smith"; }
+	{ rank = same; "Fall 2013: Zeta";		"William Breckwoldt"; "Nikhil Mysore"; "Austin Kilpatrick"; "Tim Watkins"; "Amith Rao"; "Peter Thompson"; }
+	{ rank = same; "Spring 2014: Eta";		"Jase Broderick"; "Spencer Burton"; "Justin Ferri"; "Blake Gibson"; "Jordan Gibson"; "Arjun Gopinath"; "Zachary Hudson"; "Joel Kalos"; "Sam Tate"; "Kevin Wang"; "Hyun Lee"; "Zach Janice"; }
+	{ rank = same; "Fall 2014: Theta";		"Jeff Wang"; "Jonah Larson"; "Alex Tomazic"; "Xavier Hernandez"; "Matthew Tavares"; "Jacob Antunes"; "Kenneth Connover"; "Alex DeChant"; }
+	{ rank = same; "Spring 2015: Kappa";		"Vineet Erasala"; "Srikarran Sowrirajan"; "Nicholas Barendregt"; "Alex DeFiore";}
+	{ rank = same; "Fall 2015: Lambda";		"Patrick Bonano"; "Nathan Smith"; "Veijay Raj"; "Bobby Wagner"; "Anno van den Akker"; "Mason Orsagh"; "Sai Somasundaram"; "Nathaniel Johnson"; "Calvin Pozderac"; "Benjamin Pinzone"; "Kevin Yang"; "Morgan McMahon";}
+	{ rank = same; "Spring 2016: Mu";		"Tyler Dill"; "Gabriel Jimenez"; "Naveen Karthik"; "Caleb Main"; "Paul Nettleton"; "Vishal Shah"; "Austin Stroud";}
+	{ rank = same; "Fall 2016: Nu";			"Shounak Bose"; "Sam Jenkins"; "Madhan Saiprasad"; "Raghav Wadhwa";}
+	{ rank = same; "Spring 2017: Xi";		"Lance Zhong"; "Paul Advincula"; "Kyle Smolinski"; "John Perszyk"; "Simon Michel";}
+	{ rank = same; "Fall 2017: Omicron";		"Brian Gao"; "Arthur Xin"; "Max Barnett"; "Amrith Channarasappa"; "Brian Kent"; "Nick Punzo";}
+	{ rank = same; "Spring 2018: Pi";		"Shaan Patel"; "Naveen Viswanath";}
+	{ rank = same; "Fall 2018: Rho";		"Langdon Caldwell"; "Varun Dutta"; "Ethan Glickstein"; "Brian Hinkle"; "Gabe Perez"; "Jonathan Reisman";}
+	{ rank = same; "Spring 2019: Sigma";		"Aritra Chakraborty"; "Lexington Germosen"; "Jonathan Qiu"; "Jensen Turner";}
+	{ rank = same; "Fall 2019: Tau";		"Joshua Ackerman";}
+	{ rank = same; "Spring 2019: Upsilon";		"Nathan Lesch"; "William Kaon"; "Drew Buckles";}
+	{ rank = same; "Fall 2020: Phi";       		"Viraj Gorthi"; "Alok Bose"; "James Redding"; "Jared Heller"; "Antonio Torres"; "Nathan Labrie";}
+	{ rank = same; "Spring 2021: Chi";       	"Matthew Moon";}
+	{ rank = same; "Fall 2021: Psi";		"Kyler VanWey"; "Joey Hunker"; "Ben Sash";}
+	{ rank = same; "Spring 2022: Omega";		"Jacob Hasbani";}
+	{ rank = same; "Fall 2022: Alpha Alpha";	"Junsun Yoo"; "Charlie Cimperman"; "Lear Wang"; "Rohan Berridge"; "Mason Kung"; "Kevin Arndt";}
     
 	/* Big brother -> Little brother */
-        /* Co-bros have connections in both directions */
-        /* Fall 2010: Founders */
-        "Ritchie Phan" -> "Kevin Brayer";
-        "Kevin Brayer" -> "Ritchie Phan";
-        "Stephen Redford" -> "Zachary Galliger";
-        "Zachary Galliger" -> "Stephen Redford";
-        "Brad Aronson" -> "Jonathan Shorter";
-        "Jonathan Shorter" -> "Brad Aronson";
-        "Christian Wargo" -> "Beau Reddington";
-        "Beau Reddington" -> "Christian Wargo";
-        "Sean Sukys" -> "Evan Malone";
-        "Evan Malone" -> "Sean Sukys";
-        "Steven Kellogg" -> "John Gunderman";
-        "John Gunderman" -> "Steven Kellogg";
-        "Marcin Citak" -> "Sidi Huang";
-        "Sidi Huang" -> "Marcin Citak";
-        "Jerry Kappil" -> "Joseph Fogarty";
-        "Joseph Fogarty" -> "Jerry Kappil";
-        "Nicholas Swingle" -> "Anthony Radencic";
-        "Anthony Radencic" -> "Nicholas Swingle";
-        "John Avellano" -> "Emmanuel Tavares";
-        "Emmanuel Tavares" -> "John Avellano";
-        "Andrew Oriani" -> "Ben Abbot";
-        "Ben Abbot" -> "Andrew Oriani";
-        "Rumen Hutchinson" -> "Ben Abbot";
-        "Ben Abbot" -> "Rumen Hutchinson";
-        "Rumen Hutchinson" -> "Andrew Oriani";
-        "Andrew Oriani" -> "Rumen Hutchinson";
-        "Dan Lalich" -> "Drew Borland";
-        "Drew Borland" -> "Dan Lalich";
+	/* Co-bros have connections in both directions */
+	/* Fall 2010: Founders */
+	"Ritchie Phan" -> "Kevin Brayer";
+	"Kevin Brayer" -> "Ritchie Phan";
+	"Stephen Redford" -> "Zachary Galliger";
+	"Zachary Galliger" -> "Stephen Redford";
+	"Brad Aronson" -> "Jonathan Shorter";
+	"Jonathan Shorter" -> "Brad Aronson";
+	"Christian Wargo" -> "Beau Reddington";
+	"Beau Reddington" -> "Christian Wargo";
+	"Sean Sukys" -> "Evan Malone";
+	"Evan Malone" -> "Sean Sukys";
+	"Steven Kellogg" -> "John Gunderman";
+	"John Gunderman" -> "Steven Kellogg";
+	"Marcin Citak" -> "Sidi Huang";
+	"Sidi Huang" -> "Marcin Citak";
+	"Jerry Kappil" -> "Joseph Fogarty";
+	"Joseph Fogarty" -> "Jerry Kappil";
+	"Nicholas Swingle" -> "Anthony Radencic";
+	"Anthony Radencic" -> "Nicholas Swingle";
+	"John Avellano" -> "Emmanuel Tavares";
+	"Emmanuel Tavares" -> "John Avellano";
+	"Andrew Oriani" -> "Ben Abbot";
+	"Ben Abbot" -> "Andrew Oriani";
+	"Rumen Hutchinson" -> "Ben Abbot";
+	"Ben Abbot" -> "Rumen Hutchinson";
+	"Rumen Hutchinson" -> "Andrew Oriani";
+	"Andrew Oriani" -> "Rumen Hutchinson";
+	"Dan Lalich" -> "Drew Borland";
+	"Drew Borland" -> "Dan Lalich";
 
-        /* Spring 2011: Alpha */
-        "Marcin Citak" -> "Calvin Gao";
-        "Ben Abbot" -> "John Horan";
-        "Drew Borland" ->"Jonathan Onorato";
+	/* Spring 2011: Alpha */
+	"Marcin Citak" -> "Calvin Gao";
+	"Ben Abbot" -> "John Horan";
+	"Drew Borland" ->"Jonathan Onorato";
 
-        /* Fall 2011: Beta */
-        "Ritchie Phan" -> "Ryan Ung";
-        "Kevin Brayer" -> "John Phillips";
-        "Stephen Redford" -> "Erik Larsen";
-        "Brad Aronson" -> "Ryan Gongloff";
-        "Jonathan Shorter" -> "Joey Olewinski";
-        "Christian Wargo" -> "Arley Rodriguez";
-        "Steven Kellogg" -> "Ting-Chao Su";
-        "John Gunderman" -> "Brendan Higgins";
-        "Calvin Gao" -> "Kenny Watka";
-        "Nicholas Swingle" -> "Sergiy Turchyn";
-        "Anthony Radencic"-> "Tristan Weber";
-        "Emmanuel Tavares" -> "Patrick Chirdon";
-        "John Horan" -> "Eddie Chavez";
+	/* Fall 2011: Beta */
+	"Ritchie Phan" -> "Ryan Ung";
+	"Kevin Brayer" -> "John Phillips";
+	"Stephen Redford" -> "Erik Larsen";
+	"Brad Aronson" -> "Ryan Gongloff";
+	"Jonathan Shorter" -> "Joey Olewinski";
+	"Christian Wargo" -> "Arley Rodriguez";
+	"Steven Kellogg" -> "Ting-Chao Su";
+	"John Gunderman" -> "Brendan Higgins";
+	"Calvin Gao" -> "Kenny Watka";
+	"Nicholas Swingle" -> "Sergiy Turchyn";
+	"Anthony Radencic"-> "Tristan Weber";
+	"Emmanuel Tavares" -> "Patrick Chirdon";
+	"John Horan" -> "Eddie Chavez";
 
-        /* Spring 2012: Gamma */
-        "Ritchie Phan" -> "Aaditya Vishwanath";
-        "Stephen Redford" -> "Andrew Ritosa";
-        "Brad Aronson" -> "James Lake";
-        "Beau Reddington" -> "Nate Brucker";
-        "Sean Sukys" -> "Hyung Chul Kim";
-        "John Gunderman" -> "Matthew Canestrano";
-        "Sidi Huang" -> "Peter Chen";
-        "Jerry Kappil" -> "Jevon Montague";
-        "John Avellano" -> "Connor Toomey";
-        "Eddie Chavez" -> "Ali Azeem";
-        "Jonathan Onorato" -> "Josh Musser";
+	/* Spring 2012: Gamma */
+	"Ritchie Phan" -> "Aaditya Vishwanath";
+	"Stephen Redford" -> "Andrew Ritosa";
+	"Brad Aronson" -> "James Lake";
+	"Beau Reddington" -> "Nate Brucker";
+	"Sean Sukys" -> "Hyung Chul Kim";
+	"John Gunderman" -> "Matthew Canestrano";
+	"Sidi Huang" -> "Peter Chen";
+	"Jerry Kappil" -> "Jevon Montague";
+	"John Avellano" -> "Connor Toomey";
+	"Eddie Chavez" -> "Ali Azeem";
+	"Jonathan Onorato" -> "Josh Musser";
 
-        /* Fall 2012: Delta */
-        "Andrew Ritosa" -> "David Blankfield";
-        "Zachary Galliger" -> "Josh Osborne";
-        "Christian Wargo" -> "Kevin Thompson";
-        "Nate Brucker" -> "Aaron Neyer";
-        "Hyung Chul Kim" -> "Joe Szabo";
-        "John Gunderman" -> "Jake Schwartz";
-        "Calvin Gao" -> "Darrell George";
-        "Tristan Weber" -> "Chauncey Costello";
+	/* Fall 2012: Delta */
+	"Andrew Ritosa" -> "David Blankfield";
+	"Zachary Galliger" -> "Josh Osborne";
+	"Christian Wargo" -> "Kevin Thompson";
+	"Nate Brucker" -> "Aaron Neyer";
+	"Hyung Chul Kim" -> "Joe Szabo";
+	"John Gunderman" -> "Jake Schwartz";
+	"Calvin Gao" -> "Darrell George";
+	"Tristan Weber" -> "Chauncey Costello";
 
-        /* Spring 2013: Epsilon */
-        "Stephen Redford" -> "Jay Patel";
-        "Zachary Galliger" -> "Neal Driscoll";
-        "Jake Schwartz" -> "Diego Waxemberg";
-        "Jevon Montague" -> "Justin Tang";
-        "Tristan Weber" -> "Manoj Ranganathan";
-        "Connor Toomey" -> "Kevin Smith";
-        "Ali Azeem" -> "Danny Smith";
-        "Jonathan Onorato" -> "Adam Gleichsner";
+	/* Spring 2013: Epsilon */
+	"Stephen Redford" -> "Jay Patel";
+	"Zachary Galliger" -> "Neal Driscoll";
+	"Jake Schwartz" -> "Diego Waxemberg";
+	"Jevon Montague" -> "Justin Tang";
+	"Tristan Weber" -> "Manoj Ranganathan";
+	"Connor Toomey" -> "Kevin Smith";
+	"Ali Azeem" -> "Danny Smith";
+	"Jonathan Onorato" -> "Adam Gleichsner";
 
-        /* Fall 2013: Zeta */
-        "David Blankfield" -> "Tim Watkins";
-        "Andrew Ritosa" -> "Austin Kilpatrick";
-        "Jake Schwartz" -> "William Breckwoldt";
-        "Peter Chen" -> "Nikhil Mysore";
-        "Kevin Smith" -> "Peter Thompson";
-        "Danny Smith" -> "Amith Rao";
+	/* Fall 2013: Zeta */
+	"David Blankfield" -> "Tim Watkins";
+	"Andrew Ritosa" -> "Austin Kilpatrick";
+	"Jake Schwartz" -> "William Breckwoldt";
+	"Peter Chen" -> "Nikhil Mysore";
+	"Kevin Smith" -> "Peter Thompson";
+	"Danny Smith" -> "Amith Rao";
 
-        /* Spring 2014: Eta */
-        "Ryan Ung" -> "Kevin Wang";
-        "Austin Kilpatrick" -> "Blake Gibson";
-        "Neal Driscoll" -> "Hyun Lee";
-        "Joey Olewinski" -> "Arjun Gopinath";
-        "Arley Rodriguez" -> "Spencer Burton";
-        "Aaron Neyer" -> "Zach Janice";
-        "Joe Szabo" -> "Jase Broderick";
-        "Brendan Higgins" -> "Justin Ferri";
-        "Diego Waxemberg" -> "Zachary Hudson";
-        "Jevon Montague" -> "Sam Tate";
-        "Connor Toomey" -> "Joel Kalos";
-        "Amith Rao" -> "Jordan Gibson";
+	/* Spring 2014: Eta */
+	"Ryan Ung" -> "Kevin Wang";
+	"Austin Kilpatrick" -> "Blake Gibson";
+	"Neal Driscoll" -> "Hyun Lee";
+	"Joey Olewinski" -> "Arjun Gopinath";
+	"Arley Rodriguez" -> "Spencer Burton";
+	"Aaron Neyer" -> "Zach Janice";
+	"Joe Szabo" -> "Jase Broderick";
+	"Brendan Higgins" -> "Justin Ferri";
+	"Diego Waxemberg" -> "Zachary Hudson";
+	"Jevon Montague" -> "Sam Tate";
+	"Connor Toomey" -> "Joel Kalos";
+	"Amith Rao" -> "Jordan Gibson";
 
-        /* Fall 2014: Theta */
-        "Jay Patel" -> "Jeff Wang";
-        "James Lake" -> "Jonah Larson";
-        "Hyung Chul Kim" -> "Alex Tomazic";
-        "William Breckwoldt" -> "Xavier Hernandez";
-        "Darrell George" -> "Matthew Tavares";
-        "Sergiy Turchyn" -> "Jacob Antunes";
-        "Joel Kalos" -> "Kenneth Connover";
-        "Jonathan Onorato" -> "Alex DeChant";
+	/* Fall 2014: Theta */
+	"Jay Patel" -> "Jeff Wang";
+	"James Lake" -> "Jonah Larson";
+	"Hyung Chul Kim" -> "Alex Tomazic";
+	"William Breckwoldt" -> "Xavier Hernandez";
+	"Darrell George" -> "Matthew Tavares";
+	"Sergiy Turchyn" -> "Jacob Antunes";
+	"Joel Kalos" -> "Kenneth Connover";
+	"Jonathan Onorato" -> "Alex DeChant";
 
-        /* Spring 2015: Kappa */
-        "Arjun Gopinath" -> "Tony Zhang";
-        "Joe Szabo" -> "Nicholas Barendregt";
-        "Zachary Hudson" -> "Vineet Erasala";
-        "Nikhil Mysore" -> "Srikarran Sowrirajan";
-        "Adam Gleichsner" -> "Alex DeFiore";
+	/* Spring 2015: Kappa */
+	"Arjun Gopinath" -> "Tony Zhang";
+	"Joe Szabo" -> "Nicholas Barendregt";
+	"Zachary Hudson" -> "Vineet Erasala";
+	"Nikhil Mysore" -> "Srikarran Sowrirajan";
+	"Adam Gleichsner" -> "Alex DeFiore";
 
-        /* Fall 2015: Lambda */
-        "Kevin Wang" -> "Bobby Wagner";
-        "Jeff Wang" -> "Kevin Yang";
-        "Jonah Larson" -> "Benjamin Pinzone";
-        "Arjun Gopinath" -> "Nathaniel Johnson";
-        "Tony Zhang" -> "Morgan McMahon";
-        "Zach Janice" -> "Mason Orsagh";
-        "Joe Szabo" -> "Calvin Pozderac";
-        "Vineet Erasala" -> "Nathan Smith";
-        "Zachary Hudson" -> "Anno van den Akker";
-        "Matthew Tavares" -> "Veijay Raj";
-        "Peter Thompson" -> "Patrick Bonano";
-        "Amith Rao" -> "Sai Somasundaram";
+	/* Fall 2015: Lambda */
+	"Kevin Wang" -> "Bobby Wagner";
+	"Jeff Wang" -> "Kevin Yang";
+	"Jonah Larson" -> "Benjamin Pinzone";
+	"Arjun Gopinath" -> "Nathaniel Johnson";
+	"Tony Zhang" -> "Morgan McMahon";
+	"Zach Janice" -> "Mason Orsagh";
+	"Joe Szabo" -> "Calvin Pozderac";
+	"Vineet Erasala" -> "Nathan Smith";
+	"Zachary Hudson" -> "Anno van den Akker";
+	"Matthew Tavares" -> "Veijay Raj";
+	"Peter Thompson" -> "Patrick Bonano";
+	"Amith Rao" -> "Sai Somasundaram";
 
-        /* Spring 2016: Mu */
-        "Austin Kilpatrick" -> "Austin Stroud";
-        "Jeff Wang" -> "Naveen Karthik";
-        "Jonah Larson" -> "Vishal Shah";
-        "Anno van den Akker" -> "Paul Nettleton";
-        "William Breckwoldt" -> "Tyler Dill";
-        "Kenneth Connover" -> "Gabriel Jimenez";
-        "Alex DeFiore" -> "Caleb Main";
+	/* Spring 2016: Mu */
+	"Austin Kilpatrick" -> "Austin Stroud";
+	"Jeff Wang" -> "Naveen Karthik";
+	"Jonah Larson" -> "Vishal Shah";
+	"Anno van den Akker" -> "Paul Nettleton";
+	"William Breckwoldt" -> "Tyler Dill";
+	"Kenneth Connover" -> "Gabriel Jimenez";
+	"Alex DeFiore" -> "Caleb Main";
 
-        /* Fall 2016: Nu */
-        "Alex Tomazic" -> "Sam Jenkins";
-        "Justin Ferri" -> "Shounak Bose";
-        "Kenneth Connover" -> "Raghav Wadhwa";
-        "Sai Somasundaram" -> "Madhan Saiprasad";
+	/* Fall 2016: Nu */
+	"Alex Tomazic" -> "Sam Jenkins";
+	"Justin Ferri" -> "Shounak Bose";
+	"Kenneth Connover" -> "Raghav Wadhwa";
+	"Sai Somasundaram" -> "Madhan Saiprasad";
 
-        /* Spring 2017: Xi */
-        "Tyler Dill" -> "Lance Zhong";
-        "Alex Tomazic" -> "Paul Advincula";
-        "Xavier Hernandez" -> "Kyle Smolinski";
-        "Anno van den Akker" -> "John Perszyk";
-        "Tim Watkins" -> "Simon Michel";
+	/* Spring 2017: Xi */
+	"Tyler Dill" -> "Lance Zhong";
+	"Alex Tomazic" -> "Paul Advincula";
+	"Xavier Hernandez" -> "Kyle Smolinski";
+	"Anno van den Akker" -> "John Perszyk";
+	"Tim Watkins" -> "Simon Michel";
 
 	/* Fall 2017: Omicron */
 	"Anno van den Akker" -> "Brian Gao";
@@ -232,15 +233,15 @@ digraph brotherhood {
 	"Madhan Saiprasad" -> "Ethan Glickstein";
 
 	/* Spring 2019: Sigma */
-        "Amrith Channarasappa" -> "Jonathan Qiu";
-        "Shaan Patel" -> "Aritra Chakraborty";
-        "Simon Michel" -> "Lexington Germosen";
-        "Max Barnett" -> "Jensen Turner";
+	"Amrith Channarasappa" -> "Jonathan Qiu";
+	"Shaan Patel" -> "Aritra Chakraborty";
+	"Simon Michel" -> "Lexington Germosen";
+	"Max Barnett" -> "Jensen Turner";
 
 	/* Fall 2019: Tau */
-        "Varun Dutta" -> "Joshua Ackerman";
+	"Varun Dutta" -> "Joshua Ackerman";
 	
-	/* Fall 2019: Upsilon */
+	/* Spring 2020: Upsilon */
 	/* Nathan Lesch"; "William Kaon"; "Drew Buckles" */
 	
 	/* Fall 2020: Phi */
