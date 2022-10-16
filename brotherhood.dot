@@ -45,12 +45,13 @@ digraph brotherhood {
 	{ rank = same; "Fall 2018: Rho";		"Langdon Caldwell"; "Varun Dutta"; "Ethan Glickstein"; "Brian Hinkle"; "Gabe Perez"; "Jonathan Reisman";}
 	{ rank = same; "Spring 2019: Sigma";		"Aritra Chakraborty"; "Lexington Germosen"; "Jonathan Qiu"; "Jensen Turner";}
 	{ rank = same; "Fall 2019: Tau";		"Joshua Ackerman";}
-	{ rank = same; "Spring 2019: Upsilon";		"Nathan Lesch"; "William Kaon"; "Drew Buckles";}
+	{ rank = same; "Spring 2020: Upsilon";		"Nathan Lesch"; "William Kaon"; "Drew Buckles";}
 	{ rank = same; "Fall 2020: Phi";       		"Viraj Gorthi"; "Alok Bose"; "James Redding"; "Jared Heller"; "Antonio Torres"; "Nathan Labrie";}
 	{ rank = same; "Spring 2021: Chi";       	"Matthew Moon";}
 	{ rank = same; "Fall 2021: Psi";		"Kyler VanWey"; "Joey Hunker"; "Ben Sash";}
 	{ rank = same; "Spring 2022: Omega";		"Jacob Hasbani";}
-	{ rank = same; "Fall 2022: Alpha Alpha";	"Junsun Yoo"; "Charlie Cimperman"; "Lear Wang"; "Rohan Berridge"; "Mason Kung"; "Kevin Arndt";}
+	{ rank = same; "Fall 2022: Alpha Alpha";	"Junsun Yoo"; "Charlie Cimperman"; "Lear Wang"; "Rohan Berridge"; "Mason Kung";}
+
     
 	/* Big brother -> Little brother */
 	/* Co-bros have connections in both directions */
@@ -267,10 +268,8 @@ digraph brotherhood {
 
 	/* Fall 2022: Alpha Alpha */
 	"James Redding" -> "Lear Wang"
-	"James Redding -> "Charlie Cimperman";
+	"James Redding" -> "Charlie Cimperman";
 	"Viraj Gorthi" -> "Rohan Berridge";
 	"Alok Bose" -> "Junsun Yoo";
 	"Jared Heller" -> "Mason Kung";
-	
-	/*"Kevin Arndt"; */
 }
