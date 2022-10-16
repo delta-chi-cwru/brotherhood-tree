@@ -263,8 +263,14 @@ digraph brotherhood {
 	"Jared Heller" -> "Ben Sash";
 
 	/* Spring 2022: Omega */
-	"Lexington Germosen" - > "Jacob Hasbani";
+	"Lexington Germosen" -> "Jacob Hasbani";
 
 	/* Fall 2022: Alpha Alpha */
-	/*Junsun Yoo"; "Charlie Cimperman"; "Lear Wang"; "Rohan Berridge"; "Mason Kung"; "Kevin Arndt"; */
+	"James Redding" -> "Lear Wang"
+	"James Redding -> "Charlie Cimperman";
+	"Viraj Gorthi" -> "Rohan Berridge";
+	"Alok Bose" -> "Junsun Yoo";
+	"Jared Heller" -> "Mason Kung";
+	
+	/*"Kevin Arndt"; */
 }
