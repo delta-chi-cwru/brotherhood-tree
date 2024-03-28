@@ -286,8 +286,8 @@ digraph brotherhood {
 	"Junsun Yoo" -> "Sinan Gilani";
 
 	/* Spring 2024: Alpha Delta */
-	"Andrew Xue -> Justin Lewandowski";
-	"Kevin Arndt -> Alex Sirvent Suarez";
-	"Lear Wang -> Damian Kelliher";
+	"Andrew Xue" -> "Justin Lewandowski";
+	"Kevin Arndt" -> "Alex Sirvent Suarez";
+	"Lear Wang" -> "Damian Kelliher";
 
 }
