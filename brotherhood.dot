@@ -53,6 +53,7 @@ digraph brotherhood {
 	{ rank = same; "Fall 2022: Alpha Alpha";	"Junsun Yoo"; "Charlie Cimperman"; "Lear Wang"; "Rohan Berridge"; "Mason Kung";}
 	{ rank = same; "Spring 2023: Alpha Beta";	"Kevin Arndt"; "Andrew Xue";}
 	{ rank = same; "Fall 2023: Alpha Gamma";    "Sinan Gilani"; "Ian Shih"; "Griffin Pardo"; "Carlos Hernandez";}
+	{ rank = same; "Spring 2024: Alpha Delta";    "Alex Sirvernt Suarez"; "Damian Kelliher"; "Justin Lewandowski";}
 
     
 	/* Big brother -> Little brother */
