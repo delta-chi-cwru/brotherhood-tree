@@ -19,7 +19,7 @@ digraph brotherhood {
 		// Change font to something appropriate for your system
 		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
 		edge [style=invis];
-		"" -> "Fall 2010: Founders" -> "Spring 2011: Alpha" -> "Fall 2011: Beta" -> "Spring 2012: Gamma" -> "Fall 2012: Delta" -> "Spring 2013: Epsilon" -> "Fall 2013: Zeta" -> "Spring 2014: Eta" -> "Fall 2014: Theta" -> "Spring 2015: Kappa" -> "Fall 2015: Lambda" -> "Spring 2016: Mu" -> "Fall 2016: Nu" -> "Spring 2017: Xi" -> "Fall 2017: Omicron" -> "Spring 2018: Pi" -> "Fall 2018: Rho" -> "Spring 2019: Sigma" -> "Fall 2019: Tau" -> "Spring 2020: Upsilon" -> "Fall 2020: Phi" -> "Spring 2021: Chi" -> "Fall 2021: Psi" -> "Spring 2022: Omega" -> "Fall 2022: Alpha Alpha" -> "Spring 2023: Alpha Beta" -> "Fall 2023: Alpha Gamma -> "Spring 2024: Alpha Delta";
+		"" -> "Fall 2010: Founders" -> "Spring 2011: Alpha" -> "Fall 2011: Beta" -> "Spring 2012: Gamma" -> "Fall 2012: Delta" -> "Spring 2013: Epsilon" -> "Fall 2013: Zeta" -> "Spring 2014: Eta" -> "Fall 2014: Theta" -> "Spring 2015: Kappa" -> "Fall 2015: Lambda" -> "Spring 2016: Mu" -> "Fall 2016: Nu" -> "Spring 2017: Xi" -> "Fall 2017: Omicron" -> "Spring 2018: Pi" -> "Fall 2018: Rho" -> "Spring 2019: Sigma" -> "Fall 2019: Tau" -> "Spring 2020: Upsilon" -> "Fall 2020: Phi" -> "Spring 2021: Chi" -> "Fall 2021: Psi" -> "Spring 2022: Omega" -> "Fall 2022: Alpha Alpha" -> "Spring 2023: Alpha Beta" -> "Fall 2023: Alpha Gamma" -> "Spring 2024: Alpha Delta";
 	}
 
 	/* This lists who was in which Associate Member class so that everyone from each class is in the same rank. */
